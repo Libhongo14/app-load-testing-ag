@@ -14,10 +14,8 @@ This project demonstrates how to make an API request to GitHub and retrieve user
 
 ## Usage
 
-1. Run the Python script `main.py`.
+1. Run the Python script `app-load-testing-ag.py`.
 2. The script will make an API request to GitHub and retrieve user information.
 3. The response status code, headers, and body will be printed.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Author: Libhongo Mko

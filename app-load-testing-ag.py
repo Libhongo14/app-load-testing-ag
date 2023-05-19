@@ -1,11 +1,14 @@
+# An app that makes requests to an http end point
+# Libhongo Mko
+
 import requests
 
 def main():
-    endpoint_url = "https://api.github.com/users/bard"
-    response = requests.get(endpoint_url)
+    endpoint_url = "https://api.github.com/users/bard" # endpoint url
+    response = requests.get(endpoint_url) # send request
     print("Status Code:", response.status_code)
 
-    for header in response.headers:
+    for header in response.headers: # iterating through the response headers and printing them out
         print("Header:", header,":",response.headers[header])
     
     print("Body:",response.content)

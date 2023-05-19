@@ -22,6 +22,7 @@ This project demonstrates how to make an API request to GitHub and retrieve user
 2. The script will make an API request to GitHub and retrieve user information.
 3. The response status code, headers, and body will be printed.
 
+## Author: Libhongo Mko
 """
 
     with open("README.md", "w") as readme_file:
