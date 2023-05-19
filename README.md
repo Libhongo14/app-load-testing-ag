@@ -1,7 +1,7 @@
 
-# My Project
+# App Load Testing AG
 
-This is a sample project generated using Python.
+This is an application that makes an API request and prints out the responses in the CLI
 
 ## Description
 
